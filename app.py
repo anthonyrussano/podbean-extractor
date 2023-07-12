@@ -26,4 +26,4 @@ with open("health-news.md", "w") as file:
         for div in episode_divs:
             content = div.get_text(strip=True)
             file.write(content + "\n")
-            file.write("-" * 40 + "\n")
+
